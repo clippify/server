@@ -1,7 +1,9 @@
+'''The clippify server responsible fro saving and retrieving users notes from their independent databases'''
+from datetime import datetime
+
+import arrow
 import hug
 import plyvel
-import arrow
-from datetime import datetime
 
 
 def database(user_id):
