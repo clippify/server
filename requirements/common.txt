@@ -1,3 +1,4 @@
 Cython==0.23.4
 hug==1.6.0
 plyvel==0.9
+arrow==0.7.0
