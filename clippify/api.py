@@ -10,3 +10,8 @@ def get_notes(user):
 @hug.post()
 def update_note(user, note):
     return
+
+
+@hug.post()
+def save_note(user, note):
+    return
